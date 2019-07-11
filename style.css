@@ -1,0 +1,217 @@
+*{
+	font-family: Verdana;
+	box-sizing: border-box;
+}
+
+nav{
+	text-align: center;
+}
+
+nav ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+nav ul li{
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+}
+
+nav a:hover{
+	background-color: rgb(255, 200, 200);
+	box-shadow: 1px 1px gray;
+}
+
+nav a:visited, nav a:link{
+	color: black;
+	font-weight: bold;
+}
+
+.navy{
+	border: 2px solid black;
+	padding: 15px 50px;
+	margin: 0px;
+	display: inline-block;
+	text-decoration: none;
+}
+
+#home_cake{
+	max-width: 100%;
+}
+
+.right_pictures, .left_pictures{
+	max-width: 50%;
+}
+
+.right_pictures{
+	float: right;
+	margin-left: 30px;
+}
+
+.left_pictures{
+	float: left;
+	margin-right: 30px;
+}
+
+.icons{
+	display: inline;
+	max-width: 50px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+main div{
+	clear: both;
+	padding: 30px;
+}
+
+h1, h2, h3{
+	font-family: cursive;
+}
+
+body{
+	background-image: url(dots.jpg);
+}
+
+#wrapper{
+	border: 1px black solid;
+	background-color: rgb(255, 232, 232);
+	align-self: center;
+	margin-right: auto;
+	margin-left: auto;
+	width: 992px;
+	min-height: calc(100vh - 16px);
+}
+
+h1{
+	font-size: 60px;
+	padding: 15px;
+	margin: 0px;
+}
+
+h2{
+	font-size: 35px;
+	padding: 15px;
+	margin: 0px;
+}
+
+h3{
+	font-size: 25px;
+	margin-top: 40px;
+}
+
+h4{
+	font-size: 20px;
+}
+
+h1, h2{
+	text-align: center;
+}
+
+img{
+	padding-bottom: 20px;
+}
+
+footer{
+	padding-top: 20px;
+	clear: both;
+	text-align: center;
+	background-color: rgb(255, 255,255);
+}
+
+footer h4{
+	padding: 0px;
+	margin: 5px;
+	margin-top: 10px;
+}
+
+footer p{
+	padding: 0px;
+	margin-top: 10px;
+	margin-left: 30px;
+	margin-right: 30px;
+	padding-bottom: 10px;
+	margin-bottom: 0px;
+}
+
+.mobile{
+	display: none;
+}
+
+span{
+	display: inline;
+}
+
+@media only screen and (max-width: 992px){
+	#wrapper{
+		width: 768px;
+	}
+
+	.navy{
+		padding: 15px 20px;
+	}
+
+}
+
+@media only screen and (max-width: 768px){
+	#wrapper{
+		width: 100%;
+		margin: 0px;
+		border: 0px;
+	}
+
+	#home_cake{
+		display: none;
+	}
+
+	.left_pictures, .right_pictures{
+		max-width: 100%;
+	}
+
+	.navy{
+		border: 0px;
+	}
+
+	nav ul li{
+		display: block;
+		border: 2px solid black;
+	}
+	nav a:hover{
+		background-color: rgb(255, 232, 232);
+		box-shadow: none;
+	}
+
+	body{
+		background-image: none;
+		background-color: rgb( 255, 200, 200);
+	}
+
+	h3{
+		padding-top: 10px;
+		padding-bottom: 0px;
+		margin-bottom: 0px;
+	}
+
+	p{
+		padding-top: 10px;
+		margin-top: 0px;
+	}
+
+	img{
+		padding-bottom: 18px;
+	}
+
+	.mobile{
+		display: inline;
+	}
+
+	span{
+		display: none;
+	}
+
+}
+
