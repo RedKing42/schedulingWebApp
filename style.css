@@ -55,15 +55,6 @@ nav a:visited, nav a:link{
 	margin-right: 30px;
 }
 
-.icons{
-	display: inline;
-	max-width: 50px;
-	padding-bottom: 0px;
-	margin-bottom: 0px;
-	margin-left: 5px;
-	margin-right: 5px;
-}
-
 main div{
 	clear: both;
 	padding: 30px;
@@ -79,7 +70,7 @@ body{
 
 #wrapper{
 	border: 1px black solid;
-	background-color: rgb(255, 232, 232);
+	background-color: rgb(153, 255, 216);
 	align-self: center;
 	margin-right: auto;
 	margin-left: auto;
